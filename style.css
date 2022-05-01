@@ -1,0 +1,26 @@
+body {
+    /* Cu font-family includem font-ul. Font-ul de dupa virgula este cel care va fi afista in caz ca primul font nu este disponibil */
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    /* Cu font-size setam dimensiunea font-ului. */
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+    /* Cu font-weight setam grosimea font-ului (400 = regular; 700 = bold). */
+    font-weight: 400;
+    /* Inaltimea textului este data de line-height. */
+    line-height: 20px;
+}
+
+em {
+    /* Pentru a face fontul italic, folosim font-style */
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
